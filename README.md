@@ -4,7 +4,9 @@
 A Marketing  project on real data — from hypothesis to business decision.
 
 
-![Dashboard](adimpact_dashboard.png)
+![Dashboard](Report-Dashboard.png)
+
+
 
 
 
@@ -98,8 +100,7 @@ References & Further Reading
 This project was built alongside the following resources, each one
 shaped a specific analytical decision in the notebook:
 
-Books
-
+**Books**
 Kohavi, R., Tang, D., & Xu, Y. (2020). Trustworthy Online Controlled
 Experiments: A Practical Guide to A/B Testing. Cambridge University
 Press. — The field's definitive reference. Chapter 21 covers SRM;
@@ -113,38 +114,30 @@ on experimentation; useful for translating statistical results into
 go/no-go language.
 
 
-Academic
-
+**Academic**
 Abdey, J. (2009). To p, or not to p? Towards a Balanced Approach to
 p-values. PhD thesis, London School of Economics. - Chapter 5 directly
 informed the multiple-testing correction methodology and the precise
 p-value interpretation used throughout this project.
 
-
-Videos
-
+**Videos**
 End-to-end workflow structure.
 Handel, N. A/B Testing and Growth Analytics at Airbnb.
 The Data Scientist Show #037. youtu.be/5AH0zToK0e4
 
-
 ---
-
 *Built as part of a data science portfolio — 
 grounded in real data, real methodology, and real business decisions.*
-
 ---
-## Connect
 
+## Connect
 If you found this project useful or want to discuss the methodology,
 feel free to reach out.
 
-[![LinkedIn]([https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/olamide-akanni-b240ab18a/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/olamide-akanni-b240ab18a/)
 [![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)]([YOUR_SUBSTACK_URL](https://substack.com/@lamideakanni03))
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akannilmd@gmail.com)
 
 ---
 
-
-Feedback 
-welcome!
+Feedback welcome!
