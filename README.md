@@ -63,7 +63,7 @@ Z-statistic 7.37 p-value<0.000001 P(Ad > PSA) — Bayesian 100%, 95% CI [0.59pp,
 
 Ship the ad. Prioritise Tuesday - Wednesday, 11am - 2pm.
 
-
+---
 Both frequentist and Bayesian frameworks not because one is better,
 but because they answer different questions. The frequentist test tells
 you whether to reject H₀. The Bayesian model tells you the direct
