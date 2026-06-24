@@ -43,15 +43,16 @@ associations only, no causal claims.
 
 
 **Project Structure:**
-1. Business framing, formal hypotheses & OEC definition, 
-2. Data quality checks — missing values, duplicates, SRM test 
-3. Frequentist hypothesis testing — z-test, effect size & CI
-4. Bayesian A/B testing — Beta-Binomial model, P(ad > PSA)
-5. Segment analysis — day & hour level, BH correction
-6. Power analysis — required N, achieved power, MDE
-7. CTR extension — Facebook campaign data, chi-square
-8. Executive results dashboard
-9. Q&A — 12 questions covering the full project
+1. Setup & Data Sourcing
+2.  Business framing, hypotheses & OEC definition, 
+3. Data quality checks — missing values, duplicates, SRM test 
+4. Frequentist hypothesis testing — z-test, effect size & CI
+5. Bayesian A/B testing — Beta-Binomial model, P(ad > PSA)
+6. Segment analysis — day & hour level, BH correction
+7. Power analysis — required N, achieved power, MDE
+8. CTR extension — Facebook campaign data, chi-square
+9. Results dashboard & Business Translation
+10. Q&A — 12 questions covering the full project
 
 
 **Key Results**
