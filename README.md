@@ -55,13 +55,16 @@ associations only, no causal claims.
 
 
 **Key Results**
-Metric Value Ad Conversion Rate2.555%PSA Conversion Rate1.785% Absolute Lift+0.77pp Relative Lift +43.1%Z-statistic7.37p-value< 0.000001P(Ad > PSA) — Bayesian100%95% Credible Interval[0.59pp, 0.94pp]Achieved Power100%Best performing dayTuesday (+1.60pp lift)Best performing hours11am, 1pm, 2pm, 8pm
+
+Metric Value - Ad Conversion Rate 2.555% & PSA Conversion Rate 1.785%, Absolute Lift +0.77pp, Relative Lift + 43.1% 
+Z-statistic 7.37 p-value<0.000001 P(Ad > PSA) — Bayesian 100%, 95% CI [0.59pp, 0.94pp] Achieved. Power 100% Best performing day Tuesday (+1.60pp lift) Best performing hours: 11 am, 1pm, 2pm, 8pm.
 
 **Recommendation**
-ship the ad. Concentrate spend Tuesday–Wednesday, 11am–2pm.
+
+Ship the ad. Prioritise Tuesday - Wednesday, 11am - 2pm.
 
 
-Both frequentist and Bayesian frameworks — not because one is better,
+Both frequentist and Bayesian frameworks not because one is better,
 but because they answer different questions. The frequentist test tells
 you whether to reject H₀. The Bayesian model tells you the direct
 probability the ad is genuinely better — the number a stakeholder can
@@ -79,13 +82,12 @@ throughout is "associated with," not "caused by." This distinction matters
 and is flagged at every relevant point.
 
 
-Tech Stack
+**Tech Stack**
 
 Python 3.11, Pandas, NumPy, Data wrangling, SciPyZ-test, chi-square, Bayesian sampling, Statsmodels, Proportions, z-test, power analysis, BH correction, Matplotlib, Seaborn, Visualisation, Google Colab, Development environment, Kaggle API, Seaborn Visualisation, Google Colab Development environment, Kaggle API, Seaborn Visualisation
 
 
-How to Run
-
+**How to Run the code file**
 
 Open AdImpact_AB_Testing.ipynb in Google Colab
 Add your Kaggle API token to Colab Secrets as KAGGLE_API_TOKEN
@@ -95,12 +97,13 @@ Kaggle API, no manual file uploads needed
 
 
 
-References & Further Reading
+**References & Further Reading**
 
 This project was built alongside the following resources, each one
 shaped a specific analytical decision in the notebook:
 
 **Books**
+
 Kohavi, R., Tang, D., & Xu, Y. (2020). Trustworthy Online Controlled
 Experiments: A Practical Guide to A/B Testing. Cambridge University
 Press. — The field's definitive reference. Chapter 21 covers SRM;
@@ -115,23 +118,22 @@ go/no-go language.
 
 
 **Academic**
+
 Abdey, J. (2009). To p, or not to p? Towards a Balanced Approach to
 p-values. PhD thesis, London School of Economics. - Chapter 5 directly
 informed the multiple-testing correction methodology and the precise
 p-value interpretation used throughout this project.
 
-**Videos**
-End-to-end workflow structure.
-Handel, N. A/B Testing and Growth Analytics at Airbnb.
-The Data Scientist Show #037. youtu.be/5AH0zToK0e4
 
 ---
 *Built as part of a data science portfolio — 
 grounded in real data, real methodology, and real business decisions.*
 ---
 
-## Connect
+## Connect:
 If you found this project useful or want to discuss the methodology, feel free to reach out.
+
+OLAMIDE AKANNI
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/olamide-akanni-b240ab18a/)
 [![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)]([YOUR_SUBSTACK_URL](https://substack.com/@lamideakanni03))
