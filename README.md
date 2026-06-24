@@ -108,10 +108,12 @@ shaped a specific analytical decision in the notebook:
 Kohavi, R., Tang, D., & Xu, Y. (2020). Trustworthy Online Controlled
 Experiments: A Practical Guide to A/B Testing. Cambridge University
 Press. - The field's definitive reference. Chapter 21 covers SRM;
-Chapter 17 covers the OEC. Companion site: experimentguide.com
+Chapter 17 covers the OEC. 
+
 Bruce, P., Bruce, A., & Gedeck, P. (2020). Practical Statistics for
 Data Scientists. O'Reilly. - Applied coverage of hypothesis testing
 and resampling methods.
+
 Siroker, D., & Koomen, P. (2013). A/B Testing: The Most Powerful Way
 to Turn Clicks Into Customers. Wiley. — Business-framed perspective
 on experimentation; useful for translating statistical results into
