@@ -136,7 +136,7 @@ grounded in real data, real methodology, and real business decisions.*
 ## Connect:
 If you found this project useful or want to discuss the methodology, feel free to reach out.
 
-OLAMIDE AKANNI
+OLAMIDE AKANNI | Data Scientist
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/olamide-akanni-b240ab18a/)
 [![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://substack.com/@lamideakanni03)
