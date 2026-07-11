@@ -1,4 +1,4 @@
-📊 AdImpact: Statistical A/B Testing on Marketing Conversion
+AdImpact: Statistical A/B Testing on Marketing Conversion
 
 
 A Marketing Campaign project on real data, from hypothesis to business decision.
