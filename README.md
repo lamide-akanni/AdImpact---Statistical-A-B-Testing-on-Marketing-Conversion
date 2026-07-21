@@ -95,7 +95,7 @@ Python 3.11, Pandas, NumPy, Data wrangling, SciPyZ-test, chi-square, Bayesian sa
 Open AdImpact_AB_Testing.ipynb in Google Colab (or any IDE)
 Connect Kaggle API token to Colab Secrets as KAGGLE_API_TOKEN
 (Kaggle → Settings → API → Create New Token)
-Run all cells in order — datasets download automatically via the
+Run all cells in order - datasets download automatically via the
 API, no manual file uploads needed.
 
 
@@ -112,11 +112,11 @@ The business question is directional - does the ad perform better than the PSA? 
 
 Q3: What is an SRM and what did you find?
 
-SRM = observed group split deviates from intended design, signalling a pipeline bug. We found a 96/4 split — not 50/50. Tested against 96/4: chi-square ≈ 0, p = 0.9998. No SRM. Data quality confirmed clean.
+SRM = observed group split deviates from intended design, signalling a pipeline bug. We found a 96/4 split - not 50/50. Tested against 96/4: chi-square ≈ 0, p = 0.9998. No SRM. Data quality confirmed clean.
 
 Q4: What is a p-value - precise definition.
 
-The probability of observing a result at least this extreme if H₀ were true. Not the probability the result is real. Not the probability H₀ is true. Our result: p < 0.000001 — the observed gap is effectively impossible under H₀.
+The probability of observing a result at least this extreme if H₀ were true. Not the probability the result is real. Not the probability H₀ is true. Our result: p < 0.000001 - the observed gap is effectively impossible under H₀.
 
 Q5: What did Bayesian add that frequentist couldn't?
 
@@ -124,19 +124,19 @@ Frequentist gives a binary decision: reject H₀ or not. Bayesian gives a direct
 
 Q6: What is the multiple testing problem and how did you handle it?
 
-Running 31 tests at α = 0.05 inflates false positive risk to ~79%. Applied Benjamini-Hochberg correction. Hour-level result: 12 appeared significant, only 4 survived. 8 results were pure noise — BH caught them, a naive analyst wouldn't.
+Running 31 tests at α = 0.05 inflates false positive risk to ~79%. Applied Benjamini-Hochberg correction. Hour-level result: 12 appeared significant, only 4 survived. 8 results were pure noise - BH caught them, a naive analyst wouldn't.
 
 Q7: Most actionable segment findings?
 
-Best days by conversion rate lift: Tuesday (+1.60pp), Monday, Wednesday — all significant after BH correction. Thursday and Sunday: not significant. Best hours: 11am, 1pm, 2pm, 8pm. Recommendation: concentrate spend Tuesday–Wednesday, 11am–2pm.
+Best days by conversion rate lift: Tuesday (+1.60pp), Monday, Wednesday - all significant after BH correction. Thursday and Sunday: not significant. Best hours: 11am, 1pm, 2pm, 8pm. Recommendation: concentrate spend Tuesday–Wednesday, 11am–2pm.
 
 Q8: Was the experiment adequately powered?
 
-Yes - massively overpowered. Needed only 1,329 users per group for 80% power. PSA group had 23,524 — 18x the minimum. Achieved power: 100%. PSA group was the binding constraint, not the ad group.
+Yes - massively overpowered. Needed only 1,329 users per group for 80% power. PSA group had 23,524, 18x the minimum. Achieved power: 100%. PSA group was the binding constraint, not the ad group.
 
 Q9: Facebook data is observational — what does that mean?
 
-We can identify associations, not causes. No random assignment means confounding factors may explain CTR differences. Correct language: campaigns are associated with different CTRs — not that they caused them.
+We can identify associations, not causes. No random assignment means confounding factors may explain CTR differences. Correct language: campaigns are associated with different CTRs and not that they caused them.
 
 Q10: Final business recommendation?
 
@@ -154,7 +154,7 @@ Four steps:
 
 -  Validate first: wrap every analysis in a data quality gate. If the SRM check fails, the pipeline stops before any test runs. Bad data in, bad decisions out.
 
--  Version control: every script lives on GitHub, reviewed and tested before touching production data. The notebook becomes the methodology document and audit trail — not the thing that runs in production.
+-  Version control: every script lives on GitHub, reviewed and tested before touching production data. The notebook becomes the methodology document and audit trail - not the thing that runs in production.
 
 -  Schedule and automate: the pipeline runs on a schedule via a workflow tool like Airflow. It pulls fresh experiment data, runs the tests automatically, and pushes results to a dashboard or Slack alert when the experiment reaches a decision point.
 
@@ -179,7 +179,7 @@ Data Scientists. O'Reilly. - Applied coverage of hypothesis testing
 and resampling methods.
 
 Siroker, D., & Koomen, P. (2013). A/B Testing: The Most Powerful Way
-to Turn Clicks Into Customers. Wiley. — Business-framed perspective
+to Turn Clicks Into Customers. Wiley. Business-framed perspective
 on experimentation; useful for translating statistical results into
 go/no-go language.
 
@@ -193,7 +193,7 @@ p-value interpretation used throughout this project.
 
 
 ---
-*Built as part of a data science portfolio — 
+*Built as part of a data science portfolio -
 grounded in real data, real methodology, and real business decisions.*
 ---
 
