@@ -45,14 +45,14 @@ associations only, no causal claims.
 **Project Structure:**
 1. Setup & Data Sourcing
 2.  Business framing, hypotheses & OEC definition, 
-3. Data quality checks — missing values, duplicates, SRM test 
+3. Data quality checks - missing values, duplicates, SRM test 
 4. Frequentist hypothesis testing — z-test, effect size & CI
-5. Bayesian A/B testing — Beta-Binomial model, P(ad > PSA)
-6. Segment analysis — day & hour level, BH correction
-7. Power analysis — required N, achieved power, MDE
-8. CTR extension — Facebook campaign data, chi-square
+5. Bayesian A/B testing - Beta-Binomial model, P(ad > PSA)
+6. Segment analysis - day & hour level, BH correction
+7. Power analysis - required N, achieved power, MDE
+8. CTR extension - Facebook campaign data, chi-square
 9. Results dashboard & Business Translation
-10. Q&A — 12 questions covering the full project
+10. Q&A - 12 questions covering the full project
 
 
 **Key Results**
@@ -73,13 +73,13 @@ you whether to reject H₀. The Bayesian model tells you the direct
 probability the ad is genuinely better — the number a stakeholder can
 actually act on.
 
-Multiple-testing correction — 31 segment tests were run (7 days +
+Multiple-testing correction - 31 segment tests were run (7 days +
 24 hours). Without correction, the familywise false positive rate inflates
 to ~79%. Benjamini-Hochberg FDR correction was applied: 12 hour-level
 results appeared significant before correction, only 4 survived. Those 8
 dropped results would have been acted on incorrectly without this step.
 
-Observational vs experimental distinction — the Facebook extension
+Observational vs experimental distinction - the Facebook extension
 dataset is explicitly treated as observational. The language used
 throughout is "associated with," not "caused by." This distinction matters
 and is flagged at every relevant point.
@@ -132,7 +132,7 @@ Best days by conversion rate lift: Tuesday (+1.60pp), Monday, Wednesday — all 
 
 Q8: Was the experiment adequately powered?
 
-Yes — massively overpowered. Needed only 1,329 users per group for 80% power. PSA group had 23,524 — 18x the minimum. Achieved power: 100%. PSA group was the binding constraint, not the ad group.
+Yes - massively overpowered. Needed only 1,329 users per group for 80% power. PSA group had 23,524 — 18x the minimum. Achieved power: 100%. PSA group was the binding constraint, not the ad group.
 
 Q9: Facebook data is observational — what does that mean?
 
